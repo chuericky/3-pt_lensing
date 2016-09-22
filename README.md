@@ -21,3 +21,5 @@
 - Object-oriented-programming in Python (Class)
 - Struct in C
 - Parallelized code in C using OpenMP (cut down a factor of ~16 runtime)
+- Scientific libraries in NumPy & SciPy (fftpack)
+- Extensive usage of visualization package Matplotlib
