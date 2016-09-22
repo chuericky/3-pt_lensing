@@ -1,1 +1,2 @@
-
+- Class definition in lensing_cosmology.py for defining cosmological parameters and functions.  
+- C functions defined in tool.c and tool.h.
