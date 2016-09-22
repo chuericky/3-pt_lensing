@@ -1,7 +1,9 @@
-// Parallelized code in OpenMP
-// This program calculates the wiener_filter extracts the ellipticity of the halo by using the wiener filter method, doing stacking as well.
-//  mass bin (argv[1]), plane (argv[2]), pixel across R_vir (argv[3]), half number of pix across r_min (argv[4]) (for 300 pixels, 50), halo no. to be calculated (in units of 50) (For example: 0 to 49: this input should be 0; 50 to 99: should be 1) (argv[5])
-// Updated: May 18, 2014
+/* Parallelized code in OpenMP
+   This program calculates the estimator which extracts the ellipticity of the halo, it does stacking as well.
+   A 10-fold improvement in measurement accuracy of halo ellipticity.
+   mass bin (argv[1]), plane (argv[2]), pixel across R_vir (argv[3]), half number of pix across r_min (argv[4]) (for 300 pixels, 50), halo no. to be calculated (in units of 50) (For example: 0 to 49: this input should be 0; 50 to 99: should be 1) (argv[5])
+   Updated: May 18, 2014
+*/
 
 
 #include <stdio.h>
